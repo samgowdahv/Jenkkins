@@ -10,13 +10,10 @@ pipeline {
                          steps{
                                     echo "Test"
                                  }
-                                }stage {
-                                                 steps{
-
-                                                     echo "Integration Test"
-
-                                                  }
-                                                 }
+                }stage { steps{
+                         echo "Integration Test"
+                         }
+                         }
 
                 }
 }
