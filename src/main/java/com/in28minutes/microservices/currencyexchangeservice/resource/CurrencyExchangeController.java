@@ -19,6 +19,7 @@ public class CurrencyExchangeController {
 
 	@Autowired
 	private ExchangeValueRepository repository;
+	String abc =null;
 
 	@Autowired
 	private InstanceInformationService instanceInformationService;
